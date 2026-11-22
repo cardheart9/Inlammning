@@ -24,7 +24,7 @@ ER-diagram
 
 Här är ER-diagrammet som visar hur tabellerna är kopplade:
 
-![ER-diagram](images/diagram1.png)
+![ER-diagram](images/er-diagram.png)
 
 I SQL-filen finns:
 
