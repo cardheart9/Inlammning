@@ -11,7 +11,7 @@ CREATE table Kunder (
 KundID INT AUTO_INCREMENT PRIMARY KEY, -- primary key = säger att varje rad ska ha unikt nummer och inte tomt medans auto_incriment lägger ny unikt nummer för varje ny rad som blir inserted
 Namn   VARCHAR(100),
 Epost VARCHAR(100),
-Address VARCHAR(100),
+Adress VARCHAR(100),
 telefon VARCHAR(20)
 );
 
@@ -48,7 +48,7 @@ FOREIGN KEY (ISBN) REFERENCES Bocker (ISBN) 					    -- eftersom vi inte vet ord
 -- måste vara i ordning för att foreign keys tar data från nån annan så datan visas, om en tabel tar info från nån annan så måste target tabellen va först för att host tabellen ska få visa sin data
 -- dom tabellerna som inte har foreign keys i sig behöver inte vara i ordning 
 
-INSERT INTO Kunder (Namn, Epost, Address, Telefon)
+INSERT INTO Kunder (Namn, Epost, Adress, Telefon)
 	VALUES
 		  ("charlie", "charlie22@gmail.com", "banangatan", "0735223482"),
           ("kalle", "kalle22@gmail.com", "vasagatan", "0735023482"),
