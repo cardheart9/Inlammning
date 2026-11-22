@@ -72,9 +72,9 @@ INSERT INTO bestallningar (Datum, Totalbelopp, KundID)
 
 INSERT INTO Orderrader (Ordernummer, ISBN, Antal)
     VALUES
-    (1, '192837', 2),
-    (1, '125280', 3),
-    (1, '169216', 4);
+    (1, '192837', 1),
+    (2, '125280', 2),
+    (3, '169216', 3);
 
 -- select 
 SELECT * FROM Kunder;
