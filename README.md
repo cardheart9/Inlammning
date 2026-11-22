@@ -7,7 +7,7 @@ Databasen ska hantera böcker, kunder, beställningar och orderrader.
 
 Här är en kort förklaring av vad min databas innehåller:
 
-Bocker – lagrar information om varje bok (titel, ISBN, författare, genre, pris och lagerstatus).
+Bocker – lagrar information om varje bok (titel, ISBN, författare, pris och lagerstatus).
 
 Kunder – här finns kundernas namn, e-post, telefonnummer och adress.
 
