@@ -51,8 +51,8 @@ FOREIGN KEY (ISBN) REFERENCES Bocker (ISBN) 					    -- eftersom vi inte vet ord
 INSERT INTO Kunder (Namn, Epost, Address, Telefon)
 	VALUES
 		  ("charlie", "charlie22@gmail.com", "banangatan", "0735223482"),
-          ("kalle", "kalle22@gmail.com", "vasagatan" "0735023482"),
-          ("yasmin", "yasmin22@gmail.com", "ägggatan" "0735253489");
+          ("kalle", "kalle22@gmail.com", "vasagatan", "0735023482"),
+          ("yasmin", "yasmin22@gmail.com", "ägggatan", "0735253489");
     
 
 INSERT INTO Bocker (ISBN, titel, forfattare, pris, lagerstatus)
