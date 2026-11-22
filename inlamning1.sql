@@ -1,10 +1,10 @@
 -- YH 2025 Victor
 
--- skapar databasen
-CREATE DATABASE bokhandel ;
-
 -- tar bort db om den finns redan
 DROP DATABASE IF EXISTS bokhandel;
+
+-- skapar databasen
+CREATE DATABASE bokhandel ;
 
 -- använder databasen
 USE bokhandel ;
