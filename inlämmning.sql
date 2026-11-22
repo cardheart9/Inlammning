@@ -1,3 +1,5 @@
+-- YH 2025 Victor
+
 -- skapar databasen
 CREATE DATABASE bokhandel ;
 
@@ -9,6 +11,7 @@ CREATE table Kunder (
 KundID INT AUTO_INCREMENT PRIMARY KEY, -- primary key = säger att varje rad ska ha unikt nummer och inte tomt medans auto_incriment lägger ny unikt nummer för varje ny rad som blir inserted
 Namn   VARCHAR(100),
 Epost VARCHAR(100),
+Adress VARCHAR(100),
 telefon VARCHAR(20)
 );
 
