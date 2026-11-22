@@ -48,11 +48,11 @@ FOREIGN KEY (ISBN) REFERENCES Bocker (ISBN) 					    -- eftersom vi inte vet ord
 -- måste vara i ordning för att foreign keys tar data från nån annan så datan visas, om en tabel tar info från nån annan så måste target tabellen va först för att host tabellen ska få visa sin data
 -- dom tabellerna som inte har foreign keys i sig behöver inte vara i ordning 
 
-INSERT INTO Kunder (Namn, Epost, Telefon)
+INSERT INTO Kunder (Namn, Epost, Address, Telefon)
 	VALUES
-		  ("charlie", "charlie22@gmail.com", "0735223482"),
-          ("kalle", "kalle22@gmail.com", "0735023482"),
-          ("yasmin", "yasmin22@gmail.com", "0735253489");
+		  ("charlie", "charlie22@gmail.com", "banangatan" "0735223482"),
+          ("kalle", "kalle22@gmail.com", "vasagatan" "0735023482"),
+          ("yasmin", "yasmin22@gmail.com", "ägggatan" "0735253489");
     
 
 INSERT INTO Bocker (ISBN, titel, forfattare, pris, lagerstatus)
