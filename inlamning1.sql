@@ -11,7 +11,7 @@ CREATE table Kunder (
 KundID INT AUTO_INCREMENT PRIMARY KEY, -- primary key = säger att varje rad ska ha unikt nummer och inte tomt medans auto_incriment lägger ny unikt nummer för varje ny rad som blir inserted
 Namn   VARCHAR(100),
 Epost VARCHAR(100),
-Adress VARCHAR(100),
+Address VARCHAR(100),
 telefon VARCHAR(20)
 );
 
@@ -50,7 +50,7 @@ FOREIGN KEY (ISBN) REFERENCES Bocker (ISBN) 					    -- eftersom vi inte vet ord
 
 INSERT INTO Kunder (Namn, Epost, Address, Telefon)
 	VALUES
-		  ("charlie", "charlie22@gmail.com", "banangatan" "0735223482"),
+		  ("charlie", "charlie22@gmail.com", "banangatan", "0735223482"),
           ("kalle", "kalle22@gmail.com", "vasagatan" "0735023482"),
           ("yasmin", "yasmin22@gmail.com", "ägggatan" "0735253489");
     
