@@ -3,6 +3,9 @@
 -- skapar databasen
 CREATE DATABASE bokhandel ;
 
+-- tar bort db om den finns redan
+DROP DATABASE IF EXISTS bokhandel;
+
 -- använder databasen
 USE bokhandel ;
 
