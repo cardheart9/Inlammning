@@ -24,8 +24,7 @@ ER-diagram
 
 Här är ER-diagrammet som visar hur tabellerna är kopplade:
 
-https://raw.githubusercontent.com/cardheart9/Inlammning/refs/heads/main/images/er-diagram.png
-
+https://raw.githubusercontent.com/cardheart9/Inlammning/refs/heads/main/images/diagram1.png
 
 I SQL-filen finns:
 - skapandet av databas  
