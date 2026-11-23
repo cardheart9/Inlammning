@@ -33,7 +33,7 @@ Ordernummer INT AUTO_INCREMENT PRIMARY KEY,
 Datum DATE,
 Totalbelopp DECIMAL(10,2),
 KundID INT,
-FOREIGN KEY (KundID) REFERENCES Kunder(KundID) -- kundid INT förvarar datan som kommer från kunder tabellen. 
+FOREIGN KEY (KundID) REFERENCES Kunder(KundID) 
 );
 
 -- Skapar tabelen för orderrad
