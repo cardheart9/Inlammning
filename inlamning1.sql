@@ -9,6 +9,9 @@ CREATE DATABASE bokhandel ;
 -- använder databasen
 USE bokhandel ;
 
+-- kunder kan ha många beställningar men beställningarna har en kund. en (kund) till många (beställningar)
+-- en bok kan ha många beställningar och en beställningar kan ha många böcker. många till många , kopplings tabellen är orderrader
+
 -- skapar kund tabel
 CREATE table Kunder (
 KundID INT AUTO_INCREMENT PRIMARY KEY, -- primary key = säger att varje rad ska ha unikt nummer och inte tomt medans auto_incriment lägger ny unikt nummer för varje ny rad som blir inserted
