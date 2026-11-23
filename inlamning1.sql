@@ -78,3 +78,7 @@ INSERT INTO Orderrader (Ordernummer, ISBN, Antal)
 
 -- select 
 SELECT * FROM Kunder;
+SELECT * FROM Kunder;
+SELECT * FROM Bocker;
+SELECT * FROM bestallningar;
+SELECT * FROM Orderrader;
